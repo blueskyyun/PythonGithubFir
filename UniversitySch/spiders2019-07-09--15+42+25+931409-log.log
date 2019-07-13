@@ -1,0 +1,1162 @@
+INFO:scrapy.utils.log:Scrapy 1.6.0 started (bot: UniversitySch)
+INFO:scrapy.utils.log:Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'UniversitySch', 'NEWSPIDER_MODULE': 'UniversitySch.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['UniversitySch.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 898d5f7e6326490d
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['UniversitySch.pipelines.UniversityInfoPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.zuihaodaxue.cn/robots.txt> (failed 1 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.zuihaodaxue.cn/robots.txt> (failed 2 times): TCP connection timed out: 10060: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://www.zuihaodaxue.cn/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 2, 'uname': '清华大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 3, 'uname': '北京大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 4, 'uname': '浙江大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 5, 'uname': '上海交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 6, 'uname': '复旦大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 7, 'uname': '中国科学技术大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 8, 'uname': '华中科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 9, 'uname': '南京大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 10, 'uname': '中山大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 11, 'uname': '哈尔滨工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 12, 'uname': '北京航空航天大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 13, 'uname': '武汉大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 14, 'uname': '同济大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 15, 'uname': '西安交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 16, 'uname': '四川大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 17, 'uname': '北京理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 18, 'uname': '东南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 19, 'uname': '南开大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 20, 'uname': '天津大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 21, 'uname': '华南理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 22, 'uname': '中南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 23, 'uname': '北京师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 24, 'uname': '山东大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 25, 'uname': '厦门大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 26, 'uname': '吉林大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 27, 'uname': '大连理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 28, 'uname': '电子科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 29, 'uname': '湖南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 30, 'uname': '苏州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 31, 'uname': '西北工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 32, 'uname': '中国人民大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 33, 'uname': '华东师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 34, 'uname': '南京航空航天大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 35, 'uname': '对外经济贸易大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 36, 'uname': '南方科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 37, 'uname': '华东理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 38, 'uname': '重庆大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 39, 'uname': '南京理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 40, 'uname': '北京科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 41, 'uname': '东北大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 42, 'uname': '上海大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 43, 'uname': '北京邮电大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 44, 'uname': '上海财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 45, 'uname': '中国农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 46, 'uname': '武汉理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 47, 'uname': '北京交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 48, 'uname': '华中师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 49, 'uname': '西安电子科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 50, 'uname': '中央财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 51, 'uname': '北京化工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 52, 'uname': '暨南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 53, 'uname': '东华大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 54, 'uname': '兰州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 55, 'uname': '中南财经政法大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 56, 'uname': '宁波诺丁汉大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 57, 'uname': '哈尔滨工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 58, 'uname': '华北电力大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 59, 'uname': '深圳大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 60, 'uname': '江南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 61, 'uname': '南京师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 62, 'uname': '北京工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 63, 'uname': '福州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 64, 'uname': '北京外国语大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 65, 'uname': '北京语言大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 66, 'uname': '中国地质大学（武汉）'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 67, 'uname': '西南交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 68, 'uname': '华中农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 69, 'uname': '中国海洋大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 70, 'uname': '南京农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 71, 'uname': '上海外国语大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 72, 'uname': '中国矿业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 73, 'uname': '中国地质大学（北京）'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 74, 'uname': '东北财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 75, 'uname': '西南财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 76, 'uname': '西南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 77, 'uname': '东北师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 78, 'uname': '南京邮电大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 79, 'uname': '中国政法大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 80, 'uname': '河海大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 81, 'uname': '南京信息工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 82, 'uname': '西北农林科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 83, 'uname': '中国石油大学（华东）'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 84, 'uname': '合肥工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 85, 'uname': '陕西师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 86, 'uname': '华南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 87, 'uname': '江苏大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 88, 'uname': '南京工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 89, 'uname': '中国石油大学（北京）'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 90, 'uname': '西北大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 91, 'uname': '浙江工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 92, 'uname': '北京林业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 93, 'uname': '湖南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 94, 'uname': '浙江师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 95, 'uname': '首都师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 96, 'uname': '汕头大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 97, 'uname': '中国传媒大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 98, 'uname': '杭州电子科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 99, 'uname': '扬州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 100, 'uname': '安徽大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 101, 'uname': '华侨大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 102, 'uname': '宁波大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 103, 'uname': '首都经济贸易大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 104, 'uname': '西交利物浦大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 105, 'uname': '燕山大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 106, 'uname': '湖北大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 107, 'uname': '长安大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 108, 'uname': '上海理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 109, 'uname': '大连海事大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 110, 'uname': '广东外语外贸大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 111, 'uname': '太原理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 112, 'uname': '广东工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 113, 'uname': '南京财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 114, 'uname': '浙江理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 115, 'uname': '河北工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 116, 'uname': '华东政法大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 117, 'uname': '湘潭大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 118, 'uname': '浙江财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 119, 'uname': '中国矿业大学（北京）'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 120, 'uname': '青岛大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 121, 'uname': '上海师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 122, 'uname': '南京审计大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 123, 'uname': '华南农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 124, 'uname': '江西财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 125, 'uname': '辽宁大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 126, 'uname': '中央民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 127, 'uname': '武汉工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 128, 'uname': '郑州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 129, 'uname': '杭州师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 130, 'uname': '上海对外经贸大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 131, 'uname': '上海海事大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 132, 'uname': '山东师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 133, 'uname': '武汉科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 134, 'uname': '北京第二外国语学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 135, 'uname': '广西大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 136, 'uname': '云南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 137, 'uname': '浙江工商大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 138, 'uname': '山西大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 139, 'uname': '东北农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 140, 'uname': '广州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 141, 'uname': '黑龙江大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 142, 'uname': '南昌大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 143, 'uname': '天津财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 144, 'uname': '东北林业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 145, 'uname': '河南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 146, 'uname': '河北大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 147, 'uname': '江苏师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 148, 'uname': '济南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 149, 'uname': '山东财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 150, 'uname': '山东科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 151, 'uname': '长沙理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 152, 'uname': '西南政法大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 153, 'uname': '渤海大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 154, 'uname': '重庆工商大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 155, 'uname': '福建师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 156, 'uname': '天津师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 157, 'uname': '曲阜师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 158, 'uname': '三峡大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 159, 'uname': '北京工商大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 160, 'uname': '西安理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 161, 'uname': '浙江农林大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 162, 'uname': '广西师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 163, 'uname': '温州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 164, 'uname': '湖北工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 165, 'uname': '四川农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 166, 'uname': '重庆邮电大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 167, 'uname': '河北师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 168, 'uname': '河南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 169, 'uname': '北京体育大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 170, 'uname': '常州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 171, 'uname': '天津工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 172, 'uname': '石家庄铁道大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 173, 'uname': '中国计量大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 174, 'uname': '海南大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 175, 'uname': '江苏科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 176, 'uname': '安徽财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 177, 'uname': '北京建筑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 178, 'uname': '中南民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 179, 'uname': '安徽工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 180, 'uname': '北京物资学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 181, 'uname': '南通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 182, 'uname': '内蒙古大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 183, 'uname': '中国人民公安大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 184, 'uname': '青岛科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 185, 'uname': '西南石油大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 186, 'uname': '武汉纺织大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 187, 'uname': '中国民航大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 188, 'uname': '华北理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 189, 'uname': '南京林业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 190, 'uname': '西安建筑科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 191, 'uname': '北方工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 192, 'uname': '河北科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 193, 'uname': '上海电力大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 194, 'uname': '安徽师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 195, 'uname': '哈尔滨师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 196, 'uname': '湖南农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 197, 'uname': '上海海洋大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 198, 'uname': '上海立信会计金融学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 199, 'uname': '四川师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 200, 'uname': '辽宁工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 201, 'uname': '沈阳航空航天大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 202, 'uname': '湖南工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 203, 'uname': '江西师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 204, 'uname': '西华师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 205, 'uname': '福建农林大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 206, 'uname': '天津理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 207, 'uname': '安徽农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 208, 'uname': '兰州交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 209, 'uname': '陕西科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 210, 'uname': '集美大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 211, 'uname': '长春理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 212, 'uname': '重庆交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 213, 'uname': '中南林业科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 214, 'uname': '重庆师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 215, 'uname': '湖南科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 216, 'uname': '江汉大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 217, 'uname': '成都理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 218, 'uname': '河南理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 219, 'uname': '辽宁师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 220, 'uname': '南华大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 221, 'uname': '长江大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 222, 'uname': '重庆理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 223, 'uname': '武汉轻工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 224, 'uname': '云南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 225, 'uname': '闽南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 226, 'uname': '山西财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 227, 'uname': '河南工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 228, 'uname': '湖州师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 229, 'uname': '西安邮电大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 230, 'uname': '广西民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 231, 'uname': '湖北经济学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 232, 'uname': '山西师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 233, 'uname': '苏州科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 234, 'uname': '天津科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 235, 'uname': '湖北第二师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 236, 'uname': '吉林师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 237, 'uname': '郑州师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 238, 'uname': '哈尔滨理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 239, 'uname': '河北农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 240, 'uname': '吉首大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 241, 'uname': '北京信息科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 242, 'uname': '西北师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 243, 'uname': '浙江外国语学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 244, 'uname': '中北大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 245, 'uname': '贵州大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 246, 'uname': '湖南商学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 247, 'uname': '河南财经政法大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 248, 'uname': '淮北师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 249, 'uname': '沈阳农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 250, 'uname': '浙江海洋大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 251, 'uname': '东莞理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 252, 'uname': '湖北师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 253, 'uname': '昆明理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 254, 'uname': '西南民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 255, 'uname': '上海第二工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 256, 'uname': '上海应用技术大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 257, 'uname': '绍兴文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 258, 'uname': '东北电力大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 259, 'uname': '桂林电子科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 260, 'uname': '浙江传媒学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 261, 'uname': '河北经贸大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 262, 'uname': '河南农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 263, 'uname': '东北石油大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 264, 'uname': '石河子大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 265, 'uname': '兰州理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 266, 'uname': '广西财经学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 267, 'uname': '西安工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 268, 'uname': '浙江科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 269, 'uname': '安徽理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 270, 'uname': '大连民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 271, 'uname': '新疆大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 272, 'uname': '烟台大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 273, 'uname': '延边大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 274, 'uname': '长沙学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 275, 'uname': '大连交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 276, 'uname': '吉林财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 277, 'uname': '青岛理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 278, 'uname': '上海工程技术大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 279, 'uname': '西安科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 280, 'uname': '长春工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 281, 'uname': '桂林理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 282, 'uname': '河南科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 283, 'uname': '淮阴师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 284, 'uname': '西南科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 285, 'uname': '佛山科学技术学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 286, 'uname': '南京工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 287, 'uname': '宁夏大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 288, 'uname': '广东技术师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 289, 'uname': '河北工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 290, 'uname': '黄冈师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 291, 'uname': '南京晓庄学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 292, 'uname': '沈阳建筑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 293, 'uname': '西安工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 294, 'uname': '大理大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 295, 'uname': '大连大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 296, 'uname': '湖北民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 297, 'uname': '华东交通大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 298, 'uname': '嘉兴学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 299, 'uname': '闽江学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 300, 'uname': '青海大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 301, 'uname': '大连工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 302, 'uname': '河北地质大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 303, 'uname': '天津商业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 304, 'uname': '玉林师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 305, 'uname': '中国人民武装警察部队学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 306, 'uname': '北京印刷学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 307, 'uname': '广东金融学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 308, 'uname': '南宁师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 309, 'uname': '沈阳师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 310, 'uname': '厦门理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 311, 'uname': '成都信息工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 312, 'uname': '沈阳工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 313, 'uname': '云南财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 314, 'uname': '安徽建筑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 315, 'uname': '哈尔滨商业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 316, 'uname': '黑龙江工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 317, 'uname': '湖北工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 318, 'uname': '江苏理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 319, 'uname': '郑州轻工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 320, 'uname': '长春师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 321, 'uname': '湖南第一师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 322, 'uname': '吉林农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 323, 'uname': '太原科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 324, 'uname': '太原师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 325, 'uname': '常熟理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 326, 'uname': '广东石油化工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 327, 'uname': '海南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 328, 'uname': '华北水利水电大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 329, 'uname': '宁波工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 330, 'uname': '西安石油大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 331, 'uname': '西华大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 332, 'uname': '河北科技师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 333, 'uname': '湖南城市学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 334, 'uname': '内蒙古工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 335, 'uname': '山东农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 336, 'uname': '延安大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 337, 'uname': '大连海洋大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 338, 'uname': '广东第二师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 339, 'uname': '河北北方学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 340, 'uname': '五邑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 341, 'uname': '西安财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 342, 'uname': '重庆文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 343, 'uname': '贵州师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 344, 'uname': '宝鸡文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 345, 'uname': '南昌航空大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 346, 'uname': '山西大同大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 347, 'uname': '山西农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 348, 'uname': '信阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 349, 'uname': '广东海洋大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 350, 'uname': '湖南工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 351, 'uname': '山东理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 352, 'uname': '北华航天工业学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 353, 'uname': '湖北汽车工业学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 354, 'uname': '湖南理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 355, 'uname': '浙江大学城市学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 356, 'uname': '聊城大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 357, 'uname': '中国民用航空飞行学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 358, 'uname': '安徽工程大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 359, 'uname': '北华大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 360, 'uname': '辽宁工程技术大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 361, 'uname': '南阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 362, 'uname': '盐城师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 363, 'uname': '成都大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 364, 'uname': '福建工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 365, 'uname': '陕西理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 366, 'uname': '兰州城市学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 367, 'uname': '鲁东大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 368, 'uname': '武汉体育学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 369, 'uname': '徐州工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 370, 'uname': '黑龙江科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 371, 'uname': '湖北科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 372, 'uname': '湖北文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 373, 'uname': '北京联合大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 374, 'uname': '江苏第二师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 375, 'uname': '江西科技师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 376, 'uname': '江西理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 377, 'uname': '齐齐哈尔大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 378, 'uname': '韶关学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 379, 'uname': '西安文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 380, 'uname': '长春大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 381, 'uname': '洛阳理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 382, 'uname': '山东建筑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 383, 'uname': '沈阳理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 384, 'uname': '盐城工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 385, 'uname': '北京农学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 386, 'uname': '河南科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 387, 'uname': '洛阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 388, 'uname': '内江师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 389, 'uname': '沈阳化工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 390, 'uname': '忻州师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 391, 'uname': '运城学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 392, 'uname': '甘肃农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 393, 'uname': '广东财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 394, 'uname': '湖南财政经济学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 395, 'uname': '湖南文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 396, 'uname': '金陵科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 397, 'uname': '岭南师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 398, 'uname': '内蒙古农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 399, 'uname': '齐鲁工业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 400, 'uname': '上海电机学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 401, 'uname': '上海体育学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 402, 'uname': '辽宁科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 403, 'uname': '青岛农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 404, 'uname': '新疆师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 405, 'uname': '仲恺农业工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 406, 'uname': '安康学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 407, 'uname': '赣南师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 408, 'uname': '淮海工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 409, 'uname': '临沂大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 410, 'uname': '泉州师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 411, 'uname': '唐山学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 412, 'uname': '通化师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 413, 'uname': '北京服装学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 414, 'uname': '合肥学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 415, 'uname': '江西农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 416, 'uname': '沈阳大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 417, 'uname': '湖北理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 418, 'uname': '淮阴工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 419, 'uname': '曲靖师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 420, 'uname': '安庆师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 421, 'uname': '惠州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 422, 'uname': '佳木斯大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 423, 'uname': '鞍山师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 424, 'uname': '衡阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 425, 'uname': '沈阳工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 426, 'uname': '石家庄学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 427, 'uname': '四川轻化工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 428, 'uname': '肇庆学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 429, 'uname': '黄山学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 430, 'uname': '皖西学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 431, 'uname': '安阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 432, 'uname': '北京石油化工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 433, 'uname': '龙岩学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 434, 'uname': '内蒙古科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 435, 'uname': '河南工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 436, 'uname': '天津城建大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 437, 'uname': '北部湾大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 438, 'uname': '长江师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 439, 'uname': '吉林化工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 440, 'uname': '吉林建筑大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 441, 'uname': '景德镇陶瓷大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 442, 'uname': '云南民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 443, 'uname': '辽宁石油化工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 444, 'uname': '广西科技大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 445, 'uname': '哈尔滨学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 446, 'uname': '山东工商学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 447, 'uname': '太原工业学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 448, 'uname': '郑州航空工业管理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 449, 'uname': '常州工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 450, 'uname': '重庆科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 451, 'uname': '华北科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 452, 'uname': '廊坊师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 453, 'uname': '内蒙古民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 454, 'uname': '西南林业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 455, 'uname': '咸阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 456, 'uname': '湘南学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 457, 'uname': '云南农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 458, 'uname': '北方民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 459, 'uname': '贵州师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 460, 'uname': '天津农学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 461, 'uname': '福建江夏学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 462, 'uname': '合肥师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 463, 'uname': '青海师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 464, 'uname': '重庆第二师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 465, 'uname': '丽水学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 466, 'uname': '南昌工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 467, 'uname': '齐鲁师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 468, 'uname': '天津职业技术师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 469, 'uname': '新乡学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 470, 'uname': '内蒙古师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 471, 'uname': '渭南师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 472, 'uname': '河南牧业经济学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 473, 'uname': '井冈山大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 474, 'uname': '韩山师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 475, 'uname': '河南城建学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 476, 'uname': '贺州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 477, 'uname': '西北民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 478, 'uname': '邢台学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 479, 'uname': '安阳工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 480, 'uname': '贵州财经大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 481, 'uname': '河西学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 482, 'uname': '昆明学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 483, 'uname': '乐山师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 484, 'uname': '山东交通学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 485, 'uname': '玉溪师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 486, 'uname': '东华理工大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 487, 'uname': '嘉应学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 488, 'uname': '荆楚理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 489, 'uname': '商洛学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 490, 'uname': '贵州民族大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 491, 'uname': '黑龙江八一农垦大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 492, 'uname': '绵阳师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 493, 'uname': '牡丹江师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 494, 'uname': '浙江万里学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 495, 'uname': '防灾科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 496, 'uname': '宜宾学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 497, 'uname': '中原工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 498, 'uname': '周口师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 499, 'uname': '重庆三峡学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 500, 'uname': '济宁学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 501, 'uname': '泰山学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 502, 'uname': '西安航空学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 503, 'uname': '浙江水利水电学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 504, 'uname': '辽东学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 505, 'uname': '新疆农业大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 506, 'uname': '滨州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 507, 'uname': '长春工程学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 508, 'uname': '赤峰学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 509, 'uname': '南阳理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 510, 'uname': '成都工业学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 511, 'uname': '四川文理学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 512, 'uname': '天水师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 513, 'uname': '黄淮学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 514, 'uname': '铜陵学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 515, 'uname': '湖南工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 516, 'uname': '湖南科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 517, 'uname': '九江学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 518, 'uname': '邵阳学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 519, 'uname': '许昌学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 520, 'uname': '西藏大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 521, 'uname': '桂林航天工业学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 522, 'uname': '衢州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 523, 'uname': '商丘师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 524, 'uname': '铜仁学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 525, 'uname': '红河学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 526, 'uname': '怀化学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 527, 'uname': '塔里木大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 528, 'uname': '池州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 529, 'uname': '滁州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 530, 'uname': '安徽科技学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 531, 'uname': '贵阳学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 532, 'uname': '潍坊学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 533, 'uname': '宜春学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 534, 'uname': '淮南师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 535, 'uname': '楚雄师范学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 536, 'uname': '贵州理工学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 537, 'uname': '巢湖学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 538, 'uname': '德州学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 539, 'uname': '攀枝花学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 540, 'uname': '伊犁师范大学'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 541, 'uname': '榆林学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 542, 'uname': '陇东学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 543, 'uname': '西京学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 544, 'uname': '邯郸学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 545, 'uname': '海南热带海洋学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 546, 'uname': '莆田学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 547, 'uname': '枣庄学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 548, 'uname': '浙江树人学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 549, 'uname': '平顶山学院'}}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.zuihaodaxue.cn/zuihaodaxuepaiming2019.html>
+{'udic': {'key': 550, 'uname': '湖南涉外经济学院'}}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 2,
+ 'downloader/request_bytes': 925,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 40543,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 7, 9, 7, 43, 11, 965394),
+ 'item_scraped_count': 549,
+ 'log_count/DEBUG': 553,
+ 'log_count/INFO': 9,
+ 'response_received_count': 2,
+ 'retry/count': 2,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 7, 9, 7, 42, 26, 158801)}
+INFO:scrapy.core.engine:Spider closed (finished)

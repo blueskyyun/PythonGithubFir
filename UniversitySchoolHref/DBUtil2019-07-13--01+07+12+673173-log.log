@@ -1,0 +1,67 @@
+INFO:scrapy.utils.log:Scrapy 1.6.0 started (bot: UniversitySchoolHref)
+INFO:scrapy.utils.log:Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'UniversitySchoolHref', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'FEED_EXPORT_ENCODING': 'utf-8', 'NEWSPIDER_MODULE': 'UniversitySchoolHref.spiders', 'SPIDER_MODULES': ['UniversitySchoolHref.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: a49cf8dede281819
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['UniversitySchoolHref.pipelines.UniversityschoolhrefPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52566/session/c828c749b50cb890a67a5769be526327/url {"url": "http://www.baidu.com/link?url=pCpGvpAWYNvIeB2mWwr0y0BfkEJ9rT1RmFUbCPBxArLgw-8Ix79efscjD5ui15YG"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:52566 "POST /session/c828c749b50cb890a67a5769be526327/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:52566/session/c828c749b50cb890a67a5769be526327/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:52566 "GET /session/c828c749b50cb890a67a5769be526327/url HTTP/1.1" 200 38
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:root:Traceback (most recent call last):
+  File "D:\StudyMaterial\SummerPracticeII\Python\jupyter\scrapyDemo\UniversitySchoolHref\UniversitySchoolHref\DBUtil.py", line 15, in updateSchHref
+    cur.execute("update unvstdetail_sch3 set href = %s where usid = %s", href, (usid,))
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 600,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 77131,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 7, 12, 17, 7, 24, 304369),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 9,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2019, 7, 12, 17, 7, 16, 378483)}
+INFO:scrapy.core.engine:Spider closed (finished)

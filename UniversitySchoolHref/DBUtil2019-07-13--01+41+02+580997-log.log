@@ -1,0 +1,86 @@
+INFO:scrapy.utils.log:Scrapy 1.6.0 started (bot: UniversitySchoolHref)
+INFO:scrapy.utils.log:Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'UniversitySchoolHref', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'FEED_EXPORT_ENCODING': 'utf-8', 'NEWSPIDER_MODULE': 'UniversitySchoolHref.spiders', 'SPIDER_MODULES': ['UniversitySchoolHref.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: ecd54492bed7ed62
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['UniversitySchoolHref.pipelines.UniversityschoolhrefPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=LB0Gwm9Y29fWkp8fe_iNl-sp9jF4DjHKaKMQ9oM8H8yNRmPrSDqkrogkpVma0LB-"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "GET /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 200 38
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=0vki2wc6Zcrpo0GCIDe6Ime1KpFmK2XoEiO_MRUaISuMS9EgVhNnY_zGsU-2i55U"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=oKnUq6WykRWQqdoKh_mu6KR8dE2lJjcrbXtxN0KJ8TPvTGCm5wpIhd00TTKSwQCq"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=YOcOOqx36wf-RuH8OefSDJZZfufbmE8UppIu9sbEJt2riOuBB1NFKDeDEBcTb9m2"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:scrapy.extensions.logstats:Crawled 2 pages (at 2 pages/min), scraped 1 items (at 1 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=x7xfoMJWndOeK0heQyDHEIwK9Es5JHO2R_EqqCgBSPBSTnh3PBQCFrXHEFfW-22W"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=An4gM5xyaakby639wn8OWa9f_fSsEBw2hMqK3HRwic14EyDgnl9HfaPWBJP_2ufX"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=agQY4rF-nZprF-Q21tG_086gNfUhDq_fpQ2c_3Eox_8rYBSZN9_vZRqR7gGnvboQSRUR_VUKJjUyTfWEM7TF1_"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:scrapy.extensions.logstats:Crawled 3 pages (at 1 pages/min), scraped 1 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E6%9C%89%E6%9C%BA%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53450/session/e321fb4dac372abea81ea632cb138c7d/url {"url": "http://www.baidu.com/link?url=Ll604ZP8eHnNg194ra-uo9c9NjSyev8F4oIm3sn-SAL9NE4baTtH5y2RXh_6bzAN"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53450 "POST /session/e321fb4dac372abea81ea632cb138c7d/url HTTP/1.1" 408 1041
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 1592,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 201453,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 7, 12, 17, 44, 20, 89374),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 32,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 3,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2019, 7, 12, 17, 41, 7, 93601)}
+INFO:scrapy.core.engine:Spider closed (finished)

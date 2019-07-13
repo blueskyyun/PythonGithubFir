@@ -1,0 +1,63 @@
+INFO:scrapy.utils.log:Scrapy 1.6.0 started (bot: UniversitySchoolHref)
+INFO:scrapy.utils.log:Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'UniversitySchoolHref', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'FEED_EXPORT_ENCODING': 'utf-8', 'NEWSPIDER_MODULE': 'UniversitySchoolHref.spiders', 'SPIDER_MODULES': ['UniversitySchoolHref.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: bf72e0b98b563832
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['UniversitySchoolHref.pipelines.UniversityschoolhrefPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53042/session/832f9a39dae99b7dec82d58cf7f690ba/url {"url": "http://www.baidu.com/link?url=_FZEBvBXQ72JfGfPLXbTdFZdavpZU_3Tm3YuO5hlhEAOdPsyC2d5k2p1D0vp3jbo"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53042 "POST /session/832f9a39dae99b7dec82d58cf7f690ba/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53042/session/832f9a39dae99b7dec82d58cf7f690ba/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53042 "GET /session/832f9a39dae99b7dec82d58cf7f690ba/url HTTP/1.1" 200 38
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E6%9C%89%E6%9C%BA%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 1592,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 203485,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 7, 12, 17, 30, 37, 944241),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 11,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 3,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2019, 7, 12, 17, 30, 26, 67488)}
+INFO:scrapy.core.engine:Spider closed (finished)

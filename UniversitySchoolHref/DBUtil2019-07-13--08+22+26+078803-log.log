@@ -1,0 +1,314 @@
+INFO:scrapy.utils.log:Scrapy 1.6.0 started (bot: UniversitySchoolHref)
+INFO:scrapy.utils.log:Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.7.0, Python 3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'UniversitySchoolHref', 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3, 'FEED_EXPORT_ENCODING': 'utf-8', 'NEWSPIDER_MODULE': 'UniversitySchoolHref.spiders', 'SPIDER_MODULES': ['UniversitySchoolHref.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: a32f4b7dc098f72c
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['UniversitySchoolHref.pipelines.UniversityschoolhrefPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2> (referer: None)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=MZ5gHxw0HAVwFEoYUZmVJ02Vt6ahq_oe2GRpYIX9AiJivOYdHvAwXY0G9rWpH0t8"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 38
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=Q-N5xboGSTmF04bV76-KHUSBR8jO8m5UOIrevUAxwrFweAFOJAuZAG-uMMKKggwO"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 40
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=57UVe2aEVhhLyrLidtBJOoRAtAD9XmYktEzo-IF3t8s_9JmStnTZhZ6eMvVeR-jv"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 46
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=obpHWRTCNivqsNkognkUQrU6P45C3oPlhozw-Epk2zOwBFJdo5e5Vb0GB0uGHtov"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 41
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=TNl-h2R_1AquGwmCSNrozs8x7Eby8qm2OcKh-0HbJ3c6-Ng73pVAvqYFdF_pyc6I"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 44
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=psYv8Hn9BeVN97UNvvWN6andq5mtKN0QG52PsT61bShCy_iHIsG5GssG93M6nSMU"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 39
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=UKRtbKMRx38X8x_FS6bxxQSubIJalm4Q5TCSzwYpeFrnk2GdkkiC4RPZW-MhVLmqOf6KmjWf0_2-ft3IMxgBPK"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 56
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E6%9C%89%E6%9C%BA%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%95%B0%E5%AD%A6%E4%B8%8E%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=yilRNeuZNhD5lYjrdUmFNGmGhwMsLhmWsrLihiRI8wJhr75oxbsZH98HxwVuw2_V"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 46
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E6%9C%89%E6%9C%BA%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E7%B3%BB> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E6%9C%89%E6%9C%BA%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=t6WJJLAlZk2w8X9hw4vR2cYZg_OBcbfrl8K4GdhHWomScJEDFM57CCLG_CskcyJv"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 35
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E7%B3%BB>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=aI0K1SwrXnanxnoUroG1XSODgf3lV0Ao1xC3FfURJfh1v1V5nn50N1kE6mIafa1z"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 39
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E7%B3%BB>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=XfZziHrdK75o8W82B81yKvEg4vX2vu1PjAsY1H35xKLQ0znhay-zL7wJvqrICkc2"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 37
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E7%B3%BB>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E5%99%A8%E4%BB%B6%E7%89%A9%E7%90%86%E4%B8%8E%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E7%B3%BB)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=uAfGExcvU68jc3bxJROUZjJHzO6K6BW-pQtTAwdIfLsEemod3Z1x4EcLGq3hBjhF"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 36
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E5%99%A8%E4%BB%B6%E7%89%A9%E7%90%86%E4%B8%8E%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+INFO:scrapy.extensions.logstats:Crawled 6 pages (at 6 pages/min), scraped 12 items (at 12 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%87%8D%E7%A6%BB%E5%AD%90%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E5%99%A8%E4%BB%B6%E7%89%A9%E7%90%86%E4%B8%8E%E5%8C%96%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=QGcB5c1I2FlCMXDetzRHepInZTKO0uILIQ5_SlvR1OoM8odQBlMu5cIh2Gk4pruY"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 43
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%87%8D%E7%A6%BB%E5%AD%90%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=7f0T6GVOlqlkwiIrr4go5x1iq_jKGbJbsGa9gz_kirwp_FlCppQLfx15BQ5FUqQ0ziy6BJP0a7_SgyHWpJKOZ_"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 55
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%87%8D%E7%A6%BB%E5%AD%90%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=Tdiu-SD_iAQsvw-sQv4p-U2IE1yCrU6E2j_21gt3AcHk0V3P7xGMZVFnsRFSPFdOINnDK7U4Em8l-TqGnwwTgivNI4UyJ_LL8kGywSO5Y0y"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 72
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%87%8D%E7%A6%BB%E5%AD%90%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%B0%B4%E6%B2%99%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%87%8D%E7%A6%BB%E5%AD%90%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%80%A0%E5%B1%B1%E5%B8%A6%E4%B8%8E%E5%9C%B0%E5%A3%B3%E6%BC%94%E5%8C%96%E5%AE%9E%E9%AA%8C%E5%AE%A4> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%B0%B4%E6%B2%99%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=6JA9-A-UT3kmslX1Ba5uTXvgHWFnTYQAaATpiA4a_ZlgWAnkQ5ewnvDX8Z65NVTf6zoV09c0tBbEAOPRNQMbvCpye9-vUiR2KC2-NZEHJ1u"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 69
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%80%A0%E5%B1%B1%E5%B8%A6%E4%B8%8E%E5%9C%B0%E5%A3%B3%E6%BC%94%E5%8C%96%E5%AE%9E%E9%AA%8C%E5%AE%A4>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%80%A0%E5%B1%B1%E5%B8%A6%E4%B8%8E%E5%9C%B0%E5%A3%B3%E6%BC%94%E5%8C%96%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%8C%BB%E9%99%A2)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=LzjwaufpRh4VXjwVkCN11TCqG1-mdhKZzHYVTfqe3nSTdlzRAr--n8glT1hc-Tbk"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 39
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=v0pjKH9vGlMeNmGi2mFxVzlRGBI5I4dzn6V_cqoZda-PiOT0qTfcczpFWd62AjfhEjl8BWZVHE4mzC2_UZC2Xq"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 58
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=_TdIQFTY2YqP7uibifArCgd8MeIr_qqDPS86vVFG6QYCrMHXQr6WLc0Lhvby53XC"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 39
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6%E4%B8%8E%E5%88%86%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=lgFQktib_4vfaTGaJOzyapVPTASiB0YwEtE_Jax50ADdgbLQYAJW6da8GhSl-P3mvO8KB8mO10gpgGLZN0EmzEC6j1ykOdBm49gJ-74s6tm"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 67
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=RvgMGkXmR3UazXnYTQO904P8psQeVd8BYnJ42_3mHgGeok7rdUWY4sellyobCEkj"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 46
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83>
+None
+INFO:scrapy.extensions.logstats:Crawled 13 pages (at 7 pages/min), scraped 21 items (at 9 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%AF%B9%E5%A4%96%E6%B1%89%E8%AF%AD%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%BA%B3%E7%B1%B3%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=ZAScYogajXHrTTRa5xjpURoZGcCQK5l_YR3dtIiBB1GBPz6QB8gitb0na7wk7AYW"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 37
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%AF%B9%E5%A4%96%E6%B1%89%E8%AF%AD%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=VuJA7MZiZq34Qo4O1hg1ydO10dg_qYTV5QkBdOJHe1xgR5c3oW6oGZG-cuuT8DVzCvwUAutG_sbbPN33YQD09_"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 58
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%AF%B9%E5%A4%96%E6%B1%89%E8%AF%AD%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=fNkVKz9_dHxd-ChlGTonw8sEODf23aTTPPLO7kCt2MKClKtS13j29JOwuWw5HhgU"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 50
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%AF%B9%E5%A4%96%E6%B1%89%E8%AF%AD%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%AF%B9%E5%A4%96%E6%B1%89%E8%AF%AD%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=RZn8KYYPhL78P_fGWqp7TLSmvPYNa41t_fb38Gr5oT557S8o9P6Ww8M2V5qFojm4"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 43
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+INFO:scrapy.extensions.logstats:Crawled 15 pages (at 2 pages/min), scraped 25 items (at 4 items/min)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=vgcr_JwHvcsaYs8medzgEYCageak_tPdwdVV1j1DfP482DOaSkWx65-E25P_z3hISzWFulLn9Y3ydFT593TWngkP0Bw5E3ObG6P2x7sO2SG"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 67
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=FpmXyJsXzu6Q1QDAjpN4ASY350dhNF0xI5TZkjx0TUv3b0ivIa5uy7KOOmLNu7tRtFobBhOO5OCfKF4n8b8C03DX4yChNrrb5sDNqwRMm7K"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 71
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=21Cpc4OPKKJp5p7UizNT_dRJp0k4e6P3BHSULh8Mf6jLzjzmSOYx8sjO-pbVmNHaaM4GQptetqICgjLIHs4DFqIV6p0TGS4p5_0zXBGTwOq"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 67
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%96%87%E5%8C%96%E4%BA%A7%E4%B8%9A%E7%A0%94%E7%A9%B6%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80)
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=ZSCRowUzbKDfHIK5QcK0fjfA4F1T9KH-RlNeOEXt1b2t2bt7tpxmxsb2_fis9ydF"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 38
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%96%87%E5%8C%96%E4%BA%A7%E4%B8%9A%E7%A0%94%E7%A9%B6%E9%99%A2>
+None
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {"url": "http://www.baidu.com/link?url=tFeKiyxdXgEhxGCVcmoA0J5ex6o_gnDnetIMdGCcIW-18ZtdZbMn2Q8nPcZBmpUa"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "POST /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:56256/session/925e49faab4a7f84c52292e1ebba3a7e/url {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:56256 "GET /session/925e49faab4a7f84c52292e1ebba3a7e/url HTTP/1.1" 200 37
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%96%87%E5%8C%96%E4%BA%A7%E4%B8%9A%E7%A0%94%E7%A9%B6%E9%99%A2>
+None
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%A6%96%E9%92%A2%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%96%87%E5%8C%96%E4%BA%A7%E4%B8%9A%E7%A0%94%E7%A9%B6%E9%99%A2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%9C%B3%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E9%A6%96%E9%92%A2%E5%8C%BB%E9%99%A2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%A7%AF%E6%B0%B4%E6%BD%AD%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%9C%B3%E5%8C%BB%E9%99%A2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8C%97%E4%BA%AC%E4%BA%AC%E7%85%A4%E9%9B%86%E5%9B%A2%E6%80%BB%E5%8C%BB%E9%99%A2> (referer: http://www.baidu.com/baidu?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E7%A7%AF%E6%B0%B4%E6%BD%AD%E5%8C%BB%E9%99%A2)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 9087,
+ 'downloader/request_count': 20,
+ 'downloader/request_method_count/GET': 20,
+ 'downloader/response_bytes': 1314265,
+ 'downloader/response_count': 20,
+ 'downloader/response_status_count/200': 20,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 7, 13, 0, 26, 22, 43331),
+ 'item_scraped_count': 30,
+ 'log_count/DEBUG': 230,
+ 'log_count/INFO': 12,
+ 'request_depth_max': 19,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'start_time': datetime.datetime(2019, 7, 13, 0, 22, 30, 619661)}
+INFO:scrapy.core.engine:Spider closed (finished)
